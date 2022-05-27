@@ -1,0 +1,1014 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Shabnam", sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 120px 70px 80px 60px 60px 50px 80px 406px;
+  gap: 30px;
+  height: 30%;
+  width: 100%;
+}
+.header-wave {
+  width: 300px;
+  height: 250px;
+  opacity: 0.5;
+}
+.download {
+  color: white;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-family: "Shabnam", sans-serif;
+}
+
+.call-whit-us {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+}
+.coorperation {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.about-us {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.feature {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.ideas {
+  margin-top: 30px;
+  text-align: right;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.main-page {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.logo {
+  position: relative;
+}
+.logo-bg {
+  position: absolute;
+  width: 250px;
+}
+.camel-logo {
+  width: 72px;
+  height: 72px;
+  z-index: 7;
+}
+.logo-div {
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  z-index: 7;
+}
+.logo-name {
+  z-index: 7;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.moj1 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+}
+.moj1:hover {
+  opacity: 0.4;
+}
+
+.moj2 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  margin: 54px 0 11px;
+  opacity: 0.1;
+  /* background-image: linear-gradient(to top, #fff, #00ba8f); */
+}
+
+#topBanner {
+  display: flex;
+  margin-top: 100px;
+}
+#lp {
+  position: relative;
+  padding-left: 200px;
+  width: 30%;
+}
+#img1 {
+  width: 600px;
+  height: 400px;
+}
+#img2 {
+  position: absolute;
+  top: -50px;
+  width: 450px;
+  height: 500px;
+}
+#img3 {
+  position: absolute;
+  top: -50px;
+  right: -40px;
+  width: 100px;
+  height: 40px;
+}
+#rp {
+  text-align: right;
+  width: 30%;
+  padding-left: 150px;
+}
+#rp span {
+  border-bottom: 2px solid #007f62;
+}
+.title1 {
+  color: #007f62;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#scroll {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#scroll > div {
+  background-color: gray;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 2px;
+}
+#scroll > div:first-child {
+  padding: 5px 10px;
+  background: #e35325;
+}
+.wave {
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.wave-top {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  animation: wave 3s linear infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    right: 0%;
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+    right: 5%;
+  }
+  50% {
+    transform: scale(1);
+    right: 10%;
+  }
+  75% {
+    transform: scale(1.2);
+    right: 5%;
+  }
+  100% {
+    transform: scale(1);
+    right: 0%;
+  }
+}
+
+.mid-banner {
+  margin-top: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sub-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  height: 50px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -58px;
+  z-index: -2;
+}
+.img:hover .sub-title {
+  cursor: pointer;
+  z-index: 2;
+}
+.topofemail {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: 50px 250px;
+}
+.text-topofemail {
+  margin-top: 30px;
+}
+.top-of-footer-mobile {
+  display: none;
+}
+.midWave img {
+  width: 300px;
+  height: 250px;
+  opacity: 0.8;
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -350px;
+}
+
+.desceade {
+  text-align: center;
+  margin: 50px;
+}
+
+.topofemail .img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.img > div {
+  position: relative;
+}
+.img img {
+  border-radius: 10px;
+}
+
+#line-feature {
+  float: left;
+}
+
+#line {
+  width: 2px;
+  height: 650px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #caf3ff,
+    #97f2ff,
+    #5df1fa,
+    #5cf0fa,
+    #5cf0f9,
+    #5beff9,
+    #95efff,
+    #c6efff,
+    #f8f8f8
+  );
+  margin-left: 50px;
+  float: left;
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.btn-group {
+  display: flex;
+  position: relative;
+  margin-left: 60px;
+}
+.btn {
+  position: absolute;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  font-weight: bold;
+  left: -60px;
+  border: 1px solid #e35325;
+  font-family: "Shabnam", sans-serif;
+}
+.input {
+  padding: 10px 50px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  border: 1px solid transparent;
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  border-radius: 50%;
+  margin-top: 27.5px;
+  margin-left: -37px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient {
+  width: 40px;
+  height: 40px;
+}
+
+.img-feature {
+  width: 100%;
+  height: 100%;
+  filter: invert(52%) sepia(74%) saturate(4489%) hue-rotate(140deg)
+    brightness(93%) contrast(101%);
+}
+
+#gra-flight {
+  background-image: linear-gradient(to top, #f46739, #ff9f81);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
+#flight {
+  filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(331deg)
+    brightness(105%) contrast(106%);
+}
+.text-mid-banner {
+  width: 30%;
+  text-align: right;
+}
+
+#mobile {
+  margin-left: 136px;
+}
+
+#mobile-place {
+  width: auto;
+  height: 750px;
+}
+
+#ready {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 350px;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#ready-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#ready-title {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#ready-explain {
+  display: block;
+  width: 900px;
+  margin: 20px 0px;
+  color: white;
+  text-align: center;
+  margin-bottom: 90px;
+  font-size: large;
+}
+
+#button-div {
+  margin-top: -80px;
+  text-align: center;
+}
+
+#ready-button {
+  font-size: larger;
+  border: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25),
+    0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  font-family: "Shabnam", sans-serif;
+}
+
+#div-ready-img {
+  margin-top: 190px;
+  opacity: 0.8;
+}
+#div-ready-img img {
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: url(./asset/022_bg_amadegisafar.svg);
+  mask-image: url(./asset/022_bg_amadegisafar.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}
+.load-box-wave {
+  overflow: hidden;
+}
+
+.download-box-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-box h2 {
+  width: 300px;
+  height: 26px;
+  font-size: 24px;
+  color: #007f62;
+  text-align: center;
+}
+.download-box p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.download-box {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1170px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  gap: 8px;
+}
+.download-logo {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 112px;
+  position: absolute;
+  right: 2%;
+  top: 20%;
+}
+.download-logo p {
+  padding-left: 55px;
+  width: 91px;
+  height: 10px;
+  font-size: 14px;
+  text-align: left;
+  color: #00a680;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.phone-number {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px #eee;
+  background-color: #fafafa;
+}
+.phone-number p {
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  width: 20px;
+  height: 16px;
+  text-align: center;
+  color: #616161;
+}
+.phone-number input {
+  padding: 16px 0px;
+  border: 0px;
+  margin: 10px;
+  background-color: inherit;
+}
+.phone-number input:focus {
+  outline: none;
+}
+.download-mobile {
+  display: none;
+}
+.download-box-all .download {
+  position: absolute;
+  font-family: "Shabnam", sans-serif;
+  left: 0%;
+  bottom: 0%;
+  color: white;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.download-buttons {
+  position: absolute;
+  bottom: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.cafe-bazar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+.cafe-bazar-logo {
+  width: 34px;
+  height: 38px;
+}
+.google-play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+.google-play-logo {
+  width: 150px;
+  height: 50px;
+}
+.direct-download-button {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+.direct-download-logo {
+  width: 34px;
+  height: 38px;
+}
+.download-box-wave {
+  position: absolute;
+  width: 100%;
+}
+
+footer {
+  color: white;
+  margin-top: 200px;
+  text-align: right;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 100px;
+}
+.camel-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.camel img {
+  align-items: center;
+  width: 72px;
+  height: 72px;
+}
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+.contact-box i {
+  margin-right: 15px;
+}
+.list {
+  margin-bottom: 20px;
+}
+.list div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list > div > div {
+  margin-left: 5px;
+  width: 5px;
+  height: 5px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.pic1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: -2;
+}
+.pic2 {
+  top: 5%;
+  left: 25%;
+  position: absolute;
+}
+.pic2 img {
+  width: 42px;
+  height: 42px;
+}
+.pic3 {
+  top: -20%;
+  left: 30%;
+  position: absolute;
+}
+.pic3 img {
+  width: 42px;
+  height: 42px;
+}
+.pic4 {
+  top: -50%;
+  left: 35%;
+  position: absolute;
+}
+.pic4 img {
+  width: 42px;
+  height: 42px;
+}
+.pic5 {
+  width: 400px;
+  height: 105px;
+  right: 225px;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.pic6 {
+  width: 400px;
+  height: 400px;
+  right: 26%;
+  position: absolute;
+  bottom: 130%;
+  z-index: -3;
+}
+.burger-menu {
+  display: none;
+}
+.img-topbanner-web {
+  display: none;
+}
+.text-mid-banner-mobile {
+  display: none;
+}
+.ready-mobile {
+  width: 360px;
+  height: 350px;
+  opacity: 0.3;
+  background-color: #003025;
+  background-image: url(asset/022_bg_amadegisafar1.png);
+}
+.ready-mobile-all {
+  display: none;
+}
+.footer-mobile {
+  display: none;
+}
+@import url("https://v1.fontapi.ir/css/Shabnam");
+@media only screen and (max-width: 400px) {
+  header {
+    overflow: visible;
+  }
+  .header-web {
+    display: none;
+  }
+  .burger-menu {
+    color: #007f62;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.205);
+  }
+  .burger-menu div {
+    padding: 0px 10px;
+  }
+  .burger-menu i {
+    padding: 0px 20px;
+  }
+  .logo {
+    width: 70px;
+    height: 80px;
+    margin-top: 80px;
+    z-index: -1;
+  }
+  .logo-div {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    right: 100px;
+    z-index: 7;
+  }
+  .logo-bg {
+    width: 240px;
+    right: 0px;
+  }
+  .camel-logo {
+    left: 200px;
+  }
+  #topBanner {
+    flex-direction: column;
+    width: 400px;
+    margin-top: 130px;
+  }
+  #topBanner .img {
+    display: none;
+  }
+  #rp {
+    width: 90%;
+    padding: 20px;
+  }
+  .img-topbanner-web {
+    display: block;
+  }
+  .wave {
+    margin-top: 40px;
+  }
+  .wave-bot img {
+    width: 400px;
+    height: 100px;
+  }
+  .mid-banner {
+    flex-direction: column;
+  }
+  #line-feature {
+    display: flex;
+  }
+  #line {
+    display: none;
+  }
+  #feature {
+    width: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  #mobile {
+    margin-left: 0px;
+  }
+  .text-mid-banner {
+    display: none;
+  }
+  .text-mid-banner-mobile {
+    display: block;
+    padding: 20px;
+    text-align: right;
+  }
+  .mid-banner {
+    margin-top: -230px;
+  }
+  .download-box-wave {
+    display: none;
+  }
+  .download-box {
+    width: 360px;
+    height: 770px;
+  }
+  .download-logo {
+    top: 3%;
+    right: 25%;
+  }
+  .download-logo p {
+    display: none;
+  }
+  .download-buttons {
+    flex-direction: column;
+    gap: 10px;
+    bottom: 30px;
+  }
+  .download-box-all {
+    margin-bottom: 30px;
+  }
+  .matn {
+    margin: 20px;
+  }
+  .phone-number p {
+    display: none;
+  }
+  .phone-number {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .download-mobile {
+    display: block;
+    font-family: "Shabnam", sans-serif;
+    left: 0%;
+    bottom: 0%;
+    color: white;
+    border: none;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  .download-box-all .download {
+    display: none;
+  }
+  #ready {
+    display: none;
+  }
+  .ready-mobile-all {
+    display: block;
+  }
+  .ready-mobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-image: url(asset/023_amadegisafar1.jpg);
+    background-size: cover;
+  }
+  .text-ready-mobile {
+    position: absolute;
+    width: 360px;
+  }
+  .ready-mobile-back {
+    overflow: hidden;
+    background-color: #003025a2;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+  }
+  #ready-explain {
+    width: 360px;
+    padding: 5px;
+  }
+  #button-div {
+    z-index: 6;
+  }
+  .midWave {
+    display: none;
+  }
+  .topofemail {
+    width: 400px;
+    margin: 450px 0px 0px 0px;
+  }
+  .topofemail .img {
+    width: 380px;
+    overflow-y: scroll;
+  }
+  .topofemail .img > div {
+    width: 200px;
+    height: 150px;
+  }
+  .text-topofemail {
+    display: none;
+  }
+  .btn-group {
+    display: none;
+  }
+  .top-of-footer-mobile {
+    background-color: #e1fff8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn-group-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn {
+    position: relative;
+    left: 0px;
+  }
+  .text-topofemail-mobile {
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer {
+    display: none;
+  }
+  .footer-mobile {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(asset/mobile-footer.png);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    gap: 10px;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 220px;
+    width: 400px;
+    height: 100px;
+  }
+  .icons > div {
+    width: 64px;
+    height: 64px;
+  }
+  .link-asli {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    width: 400px;
+    height: 100px;
+  }
+  .phone-email {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 400px;
+    height: 25px;
+  }
+  .icon-footer {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -110px;
+  }
+}

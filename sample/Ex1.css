@@ -1,0 +1,315 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Shabnam", sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 120px 70px 80px 60px 60px 50px 80px 406px;
+  gap: 30px;
+  height: 30%;
+  width: 100%;
+}
+
+.download {
+  color: white;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-family: "Shabnam", sans-serif;
+}
+
+.call-whit-us {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.about-us {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.feature {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.ideas {
+  margin-top: 30px;
+  text-align: right;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.main-page {
+  text-align: right;
+  margin-top: 30px;
+  height: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.logo {
+  position: relative;
+}
+.logo-bg {
+  position: absolute;
+  width: 250px;
+}
+.camel-logo {
+  width: 72px;
+  height: 72px;
+  z-index: 7;
+}
+.logo-div {
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  z-index: 7;
+}
+.logo-name {
+  z-index: 7;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.moj1 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+}
+.moj1:hover {
+  opacity: 0.4;
+}
+
+.moj2 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  margin: 54px 0 11px;
+  opacity: 0.1;
+  /* background-image: linear-gradient(to top, #fff, #00ba8f); */
+}
+
+#topBanner {
+  display: flex;
+  margin-top: 100px;
+}
+#lp {
+  position: relative;
+  padding-left: 200px;
+  width: 30%;
+}
+#img1 {
+  width: 600px;
+  height: 400px;
+}
+#img2 {
+  position: absolute;
+  top: -50px;
+  width: 450px;
+  height: 500px;
+}
+#img3 {
+  position: absolute;
+  top: -50px;
+  right: -40px;
+  width: 100px;
+  height: 40px;
+}
+#rp {
+  text-align: right;
+  width: 30%;
+  padding-left: 150px;
+}
+#rp span {
+  border-bottom: 2px solid #007f62;
+}
+.title1 {
+  color: #007f62;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#scroll {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#scroll > div {
+  background-color: gray;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 2px;
+}
+#scroll > div:first-child {
+  padding: 5px 10px;
+  background: #e35325;
+}
+
+
+@keyframes wave {
+  0% {
+    right: 0%;
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+    right: 5%;
+  }
+  50% {
+    transform: scale(1);
+    right: 10%;
+  }
+  75% {
+    transform: scale(1.2);
+    right: 5%;
+  }
+  100% {
+    transform: scale(1);
+    right: 0%;
+  }
+}
+
+.mid-banner {
+  margin-top: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.img:hover .sub-title {
+  cursor: pointer;
+  z-index: 2;
+}
+
+.text-topofemail {
+  margin-top: 30px;
+}
+.top-of-footer-mobile {
+  display: none;
+}
+.midWave img {
+  width: 300px;
+  height: 250px;
+  opacity: 0.8;
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -350px;
+}
+
+.mid-banner {
+  margin-top: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sub-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  height: 50px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -58px;
+  z-index: -2;
+}
+.img:hover .sub-title {
+  cursor: pointer;
+  z-index: 2;
+}
+.topofemail {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: 50px 250px;
+}
+.text-topofemail {
+  margin-top: 30px;
+}
+.top-of-footer-mobile {
+  display: none;
+}
+.midWave img {
+  width: 300px;
+  height: 250px;
+  opacity: 0.8;
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -350px;
+}
+
+.desceade {
+  text-align: center;
+  margin: 50px;
+}
+
+.topofemail .img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.img > div {
+  position: relative;
+}
+.img img {
+  border-radius: 10px;
+}
+
+#line-feature {
+  float: left;
+}
+
+#line {
+  width: 2px;
+  height: 650px;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #caf3ff,
+    #97f2ff,
+    #5df1fa,
+    #5cf0fa,
+    #5cf0f9,
+    #5beff9,
+    #95efff,
+    #c6efff,
+    #f8f8f8
+  );
+  margin-left: 50px;
+  float: left;
+}
